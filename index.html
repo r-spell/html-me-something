@@ -6,10 +6,23 @@
   <body>
     <header>
       <h1> Adventures in Stenciling </h1>
+      <nav> 
+        <ul>
+          <li> <a href="#history"> My History with Stenciling </a>
+          </li>
+          <li> <a href="#problem-solving"> Problem Solving &amp Stenciling </a>
+          </li>
+          <li> <a href="#hand-cut"> Examples of Hand-Cut Stencils </a>
+          </li>
+          <li> <a href="#laser-cut"> Examples of Laser-Cut Stencils </a>
+          </li>
+        </ul>
     </header>
     <main>
       <article>
         <section>   
+          <a name="history" ></a>
+          <h2> My History with Stenciling </h2>
           <p>
             I have been stenciling since I was in high school (so about 15 years).
             Most of that time I was doing stencils, by hand, with contact paper and x-acto knives.
@@ -17,15 +30,54 @@
             Over the years I have done more with multicolor prints with stencils. I use GIMP and <a href="https://inkscape.org/"> Inkscape </a> 
             to help me design stencils which make up different color layers to create a multicolor print. In the past year, I have also started using a laser cutter to make stencils. I belong to <a href="https://archreactor.org"> Arch Reactor, </a> a community space for makers, which has a laser cutter members can use.  
              </p>
+         
+        </section>
+        <section>   
+          <a name="problem-solving" ></a>
+          <h2> Problem Solving &amp Stenciling</h2>
+          <p> I like stenciling because it brings together creative problem solving techniques to make something artistic. While simple "silhouette" images,  can be quite easy to cut out, it takes some creativity to make more complex images with stencils.  
+            For example: it is easy to cut a heart, a star, or a silhouette of Elvis' head.  
+          </p>
           <figure> <img src="images/easystencils.png" alt="Some examples of ''Easy'' Stencils: a heart, a star, and a silhouette of Elvis" /> 
             <figcaption> Some examples of "Easy" Stencils: a heart, a star, and a silhouette of Elvis
             </figcaption>
           </figure>
+          <p> The problem-solving element comes in as we look at images, which have "islands"" in them.  At one point I did a
+             Research Experience for Undergraduates<sup><a href="#fn1">[1]</a></sup> and we had a running thing about <a href="http://www.personal.kent.edu/~rmuhamma/GraphTheory/MyGraphTheory/planarity.htm">K4,</a>
+              a connected graph on 4 vertices. We decided to make t-shirts and I realized I could do them cheaply if I used stencils.
+          </p>
+ 
+          <figure> <img src="images/k4.png" alt="A representation of K4" /> 
+            <figcaption> A representation of K4
+            </figcaption>
+          </figure>
+          <p> For the "Easy" stencils, we could just cut around the outside of the shapes.  However, if we cut around the edge here, some of the paper gets cut away and lost, we lose the  "islands."
+          </p>
+          <figure> <img src="images/filledk4.png" alt="The K4 representation, when the ''islands'' are lost" /> 
+            <figcaption> The K4 representation, when the "islands" are lost
+            </figcaption>
+          </figure>
+          <p> To solve this problem, I made two stencils.  One which gives the edges (lines) and one which gives the vertices (dots) of the K4. You may note the lines do not quite meet at the corners.  This is on purpose.  We call these little gaps, "bridges." If these lines were extended to the corners we would lose the "islands."
+          </p>
+          <figure> <img src="images/edgesk4.png" alt="The edges of K4" /> <img src="images/verticesk4.png" alt="The vertices of K4" /> 
+            <figcaption> The edges and vertices of K4 given by two different stencils
+            </figcaption>
+          </figure>
+      
+        </section>
+        <section>
+          <a name="hand-cut"></a>
+          <h2> Examples of Hand-Cut Stencils </h2>
+        </section>
+        <section>
+          <a name="laser-cut"></a>
+          <h2> Examples of Laser-Cut Stencils </h2>
         </section>
       </article>
     </main>
 
     <footer>
+      <a name="fn1"></a>[1] I meant to have cute pictures of us in the stenciled shirts which inspired much of the structure of this page but I couldn't find any!
     </footer>
   </body>
 </html>
