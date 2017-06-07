@@ -2,33 +2,35 @@
 
 h1 { 
 	font-size: 2.5em;
+	
 }
 h2 { 
-	font-size: 1.8em;
-}
-h3 { 
 	font-size: 1.5em;
 }
+h3 { 
+	font-size: 1.3em;
+}
 
-h1, h2, h3 {
+h2, h3 {
 	text-align: center;
 	margin: .5em;
 	padding: .5em;
 }
+
+h1, p {
+	margin: .5em 5%;
+	padding: .5em;
+}
 header { 
-	margin: 0 auto;
 	position: relative;
-	padding: 2em;
-	text-align: center;
 	top: 0;
 	width: 100%;
-	background-color: #e29b5d;
 
 }
 
 figure {
-	margin: 1em;
-	padding: 1em;
+	margin: 2em 20%;
+	padding: 1em 10%;
 	border: 1px solid #000000; 
 	border-radius: 10px;
 }
@@ -39,12 +41,16 @@ figcaption {
 	clear: both;
 }
 img {
-	width: 100%;
+	width: 60%;
+	margin-left: 20%;
 }
 nav {
 	position: absolute;
-	left: 0;
+	margin: 100px;
+	margin-left: 0;
 	width: 20%;
+	z-index: 1;
+	
 }
 
 nav ul {
@@ -52,21 +58,23 @@ nav ul {
 	margin: 0;
 	padding: 1em;
 	width: 10 em;
-	background-color: #e29b5d;
 }
 li a {
 	display: block;
-	color: #000000;
+	color: #ffffff;
 	padding: 1em;
-	text-decoration: none
+	margin: .5em;
+	text-decoration: none;
+	background-color: #8F8380;
 }
 li a:hover {
-	background-color: #d17a2e;
-	color:  #ffffff;
+	background-color: #82b2e5;
+	color:  #000000;
 }
 main {
-
+	clear: both;
 	margin-left: 20%;
+	margin-right: 5%;
 }
 
 
@@ -81,6 +89,12 @@ article {
 	background-color:#82b2e5;
 	}
 
+footer {
+	font-size: .7em;
+	margin-left: 20%;
+}
+
+
 
 
 .buddy {
@@ -93,4 +107,11 @@ article {
 
 .wrap-fig {
 	overflow: hidden;
+}
+
+#assemblyline {
+	width: 30%;
+	float: left;
+	margin-top: 0;
+	z-index: 5;
 }
