@@ -1,11 +1,13 @@
 /* background color #c1ecf2 */
 
 h1 { 
-	font-size: 2.5em;
+	font-size: 3em;
+	
 	
 }
 h2 { 
 	font-size: 1.5em;
+	color: #8F8380;
 }
 h3 { 
 	font-size: 1.3em;
@@ -15,6 +17,7 @@ h2, h3 {
 	text-align: center;
 	margin: .5em;
 	padding: .5em;
+	
 }
 
 h1, p {
@@ -25,6 +28,7 @@ header {
 	position: relative;
 	top: 0;
 	width: 100%;
+	background-color: #ffffff;
 
 }
 
@@ -81,7 +85,6 @@ main {
 
 body { 
 	font-family: helvetica;
-	margin: auto;
 	background-color: #d3deea;
 }
 
@@ -110,8 +113,9 @@ footer {
 }
 
 #assemblyline {
-	width: 30%;
+	width: 40%;
 	float: left;
 	margin-top: 0;
+	margin-left: 0;
 	z-index: 5;
 }
